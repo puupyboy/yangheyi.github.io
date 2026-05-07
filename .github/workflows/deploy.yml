@@ -34,7 +34,10 @@ jobs:
         run: npm install
 
       - name: Generate Hexo site
-        run: npx hexo clean && npx hexo generate
+        run: |
+          which hexo
+          hexo clean
+          hexo generate
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
