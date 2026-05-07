@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## 部署到 GitHub Pages 时请替换为你的用户名和仓库名
-url: https://yourusername.github.io
+url: https://puupyboy.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
